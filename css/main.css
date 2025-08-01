@@ -14,6 +14,7 @@ a {
 }
 /* nav */
 nav {
+<<<<<<< HEAD
   position: fixed;
   top: 0;
   left: 0;
@@ -26,6 +27,14 @@ nav {
   gap: 20px;
   align-items: center;
   z-index: 99;
+=======
+  background-color: bisque;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+>>>>>>> 4db4c1dfdf5d2af7a5a5baff41ce31bc704ac05d
 }
 nav > a:hover {
   text-decoration: underline;
@@ -36,7 +45,10 @@ nav > a:hover {
   display: flex;
   gap: 20px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4db4c1dfdf5d2af7a5a5baff41ce31bc704ac05d
 .navIcon-a::hover {
   opacity: 1;
 }
@@ -68,6 +80,7 @@ nav > a:hover {
   cursor: pointer;
 }
 .navIcon-a::before {
+<<<<<<< HEAD
   content: attr(aria-label);
   position: absolute;
   top: 36px;
@@ -227,5 +240,58 @@ nav > a:hover {
 .search-btn button:hover {
   color: #311;
   background: linear-gradient(#ffffff 0%, #f6f6f6 47%, #ededed 100%);
+=======
+  position: absolute;
+  top: 36px;
+  left: 50px;
+  transform: translateX(-50%);
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.navIcon-a:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+#login {
+  padding: 6px 12px;
+  color: #fff;
+  border: 0;
+  background-color: #4484f3;
+  border-radius: 3px;
+}
+#login:hover {
+  background-color: #166afc;
+  cursor: pointer;
+}
+.search_bar {
+  display: flex;
+  min-width: 765px;
+  min-width: 337px;
+  background-color: beige;
+  padding: 10px 25px;
+  border-radius: 100px;
+  border: 1px solid #ce5c10;
+}
+.search_bar input {
+  width: 60%;
+}
+.search-icon {
+  display: flex;
+  width: 20%;
+}
+.navIcon-a:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+#login {
+  padding: 6px 12px;
+  color: #fff;
+  border: 0;
+  background-color: #4484f3;
+  border-radius: 3px;
+}
+#login:hover {
+  background-color: #166afc;
+>>>>>>> 4db4c1dfdf5d2af7a5a5baff41ce31bc704ac05d
   cursor: pointer;
 }
